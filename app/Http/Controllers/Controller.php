@@ -19,7 +19,4 @@ public function index()
 return view('welcome');
 }
 }
-//le premier paramètre correspond à l'URL
-//le second paramètre spécifie le contrôleur et la méthode à appeler.
-//name permet de donner un alias à la route (utile pour les liens vers la page)
-Route::get('/','WelcomeController@index')->name('accueil');
+
