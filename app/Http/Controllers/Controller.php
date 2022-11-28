@@ -11,12 +11,3 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
-
-class WelcomeController extends Controller
-{
-public function index()
-{
-return view('welcome');
-}
-}
-
